@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="30455717971fs"></ZoomEndTime>
+      <Cursor1Time time="10653482000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="67"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="34" />
+   <wvobject fp_name="/top_sim/buttons" type="array">
+      <obj_property name="ElementShortName">buttons[7:0]</obj_property>
+      <obj_property name="ObjectShortName">buttons[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/deg_value" type="array">
+      <obj_property name="ElementShortName">deg_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">deg_value[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/result_data" type="array">
+      <obj_property name="ElementShortName">result_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/display_clock" type="logic">
+      <obj_property name="ElementShortName">display_clock</obj_property>
+      <obj_property name="ObjectShortName">display_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/LED_ENCODE1" type="array">
+      <obj_property name="ElementShortName">LED_ENCODE1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED_ENCODE1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/LED_ENCODE2" type="array">
+      <obj_property name="ElementShortName">LED_ENCODE2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED_ENCODE2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/LED_SELECT" type="array">
+      <obj_property name="ElementShortName">LED_SELECT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED_SELECT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/CurrentState" type="array">
+      <obj_property name="ElementShortName">CurrentState[4:0]</obj_property>
+      <obj_property name="ObjectShortName">CurrentState[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Addr" type="array">
+      <obj_property name="ElementShortName">Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/MemWrite" type="array">
+      <obj_property name="ElementShortName">MemWrite[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MemWrite[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/MemRead" type="array">
+      <obj_property name="ElementShortName">MemRead[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MemRead[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Control/Instr" type="array">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/ReadData" type="array">
+      <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/RegDst" type="array">
+      <obj_property name="ElementShortName">RegDst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/RSAddr_Pos" type="array">
+      <obj_property name="ElementShortName">RSAddr_Pos[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RSAddr_Pos[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/RTAddr_Pos" type="array">
+      <obj_property name="ElementShortName">RTAddr_Pos[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RTAddr_Pos[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/RS" type="array">
+      <obj_property name="ElementShortName">RS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/RT" type="array">
+      <obj_property name="ElementShortName">RT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/RegDTSource" type="array">
+      <obj_property name="ElementShortName">RegDTSource[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RegDTSource[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/SrcA" type="array">
+      <obj_property name="ElementShortName">SrcA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/SrcB" type="array">
+      <obj_property name="ElementShortName">SrcB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group37" type="group">
+      <obj_property name="label">flu_en</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/adden" type="logic">
+         <obj_property name="ElementShortName">adden</obj_property>
+         <obj_property name="ObjectShortName">adden</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/suben" type="logic">
+         <obj_property name="ElementShortName">suben</obj_property>
+         <obj_property name="ObjectShortName">suben</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/mulen" type="logic">
+         <obj_property name="ElementShortName">mulen</obj_property>
+         <obj_property name="ObjectShortName">mulen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/diven" type="logic">
+         <obj_property name="ElementShortName">diven</obj_property>
+         <obj_property name="ObjectShortName">diven</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/cvt_sw_en" type="logic">
+         <obj_property name="ElementShortName">cvt_sw_en</obj_property>
+         <obj_property name="ObjectShortName">cvt_sw_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/cvt_ws_en" type="logic">
+         <obj_property name="ElementShortName">cvt_ws_en</obj_property>
+         <obj_property name="ObjectShortName">cvt_ws_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/cmpen" type="logic">
+         <obj_property name="ElementShortName">cmpen</obj_property>
+         <obj_property name="ObjectShortName">cmpen</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group44" type="group">
+      <obj_property name="label">flu_valid</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/adder_valid" type="logic">
+         <obj_property name="ElementShortName">adder_valid</obj_property>
+         <obj_property name="ObjectShortName">adder_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/mult_valid" type="logic">
+         <obj_property name="ElementShortName">mult_valid</obj_property>
+         <obj_property name="ObjectShortName">mult_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/div_valid" type="logic">
+         <obj_property name="ElementShortName">div_valid</obj_property>
+         <obj_property name="ObjectShortName">div_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/cvt_sw_valid" type="logic">
+         <obj_property name="ElementShortName">cvt_sw_valid</obj_property>
+         <obj_property name="ObjectShortName">cvt_sw_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/cvt_ws_valid" type="logic">
+         <obj_property name="ElementShortName">cvt_ws_valid</obj_property>
+         <obj_property name="ObjectShortName">cvt_ws_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_sim/top/Processor/Path/FLUnit/cmp_valid" type="logic">
+         <obj_property name="ElementShortName">cmp_valid</obj_property>
+         <obj_property name="ObjectShortName">cmp_valid</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/general_registers/GeneralRegisters[2]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="label">v0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/general_registers/GeneralRegisters[3]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="label">v1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/general_registers/GeneralRegisters[4]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      <obj_property name="label">a0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/general_registers/GeneralRegisters[29]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[29][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      <obj_property name="label">sp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/general_registers/GeneralRegisters[30]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[30][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      <obj_property name="label">fp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/general_registers/GeneralRegisters[31]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      <obj_property name="label">ra</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/float_registers/GeneralRegisters[0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="label">f0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_sim/top/Processor/Path/float_registers/GeneralRegisters[12]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[12][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      <obj_property name="label">f12</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+</wave_config>

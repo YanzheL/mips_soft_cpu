@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Vivado logs and journals
+*.log
+*.jou
+*.str
+*.pb
+
+# Vivado temp
+.Xil/
+vivado_pid*.str
+vivado*.backup.*
+
+# Vivado project generated directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Simulation testbench source (un-ignore from *.sim/ rule)
+!*.sim/**/new/
+
+# Vivado IP generated files (keep only .xci)
+**/sources_1/ip/*/hdl/
+**/sources_1/ip/*/sim/
+**/sources_1/ip/*/synth/
+**/sources_1/ip/*/cmodel/
+**/sources_1/ip/*/demo_tb/
+**/sources_1/ip/*/doc/
+**/sources_1/ip/*/*.veo
+**/sources_1/ip/*/*.vho
+**/sources_1/ip/*/*.xml
+

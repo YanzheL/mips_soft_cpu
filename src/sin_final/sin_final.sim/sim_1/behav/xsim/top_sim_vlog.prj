@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v" --include "../../../../sin_final.srcs/sources_1/new" \
+"../../../../sin_final.srcs/sources_1/new/DECL7S.v" \
+"../../../../sin_final.srcs/sources_1/new/alu.v" \
+"../../../../sin_final.srcs/sources_1/new/clock_transformer.v" \
+"../../../../sin_final.srcs/sources_1/new/condition_registers.v" \
+"../../../../sin_final.srcs/sources_1/new/datapath.v" \
+"../../../../sin_final.srcs/sources_1/new/decoders.v" \
+"../../../../sin_final.srcs/sources_1/new/etc.v" \
+"../../../../sin_final.srcs/sources_1/new/flu.v" \
+"../../../../sin_final.srcs/sources_1/new/io_module.v" \
+"../../../../sin_final.srcs/sources_1/new/main_controller.v" \
+"../../../../sin_final.srcs/sources_1/new/memory_controller.v" \
+"../../../../sin_final.srcs/sources_1/new/mips.v" \
+"../../../../sin_final.srcs/sources_1/new/mlu.v" \
+"../../../../sin_final.srcs/sources_1/new/registers.v" \
+"../../new/top_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

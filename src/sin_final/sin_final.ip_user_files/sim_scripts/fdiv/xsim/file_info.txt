@@ -1,0 +1,1 @@
+fdiv.vhd,vhdl,xil_defaultlib,../../../../sin_final.srcs/sources_1/ip/fdiv/sim/fdiv.vhd,

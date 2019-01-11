@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../sin_final.srcs/sources_1/ip/fcompare/sim/fcompare.vhd" \
+
+nosort

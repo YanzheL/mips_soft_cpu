@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../sin_final.srcs/sources_1/ip/fixed_to_float/sim/fixed_to_float.vhd" \
+
+nosort

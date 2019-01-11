@@ -1,0 +1,1290 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 10 19:48:09 2018
+# Process ID: 8360
+# Current directory: C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.runs/synth_1/Top.vds
+# Journal file: C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10176 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 364.910 ; gain = 100.992
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mips.v:3]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'MIPS' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mips.v:78]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'DataPath' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/datapath.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+	Parameter CONBITS bound to: 3 - type: integer 
+	Parameter CONST_0 bound to: 0 - type: integer 
+	Parameter CONST_1 bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Mux2' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:94]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux2' (1#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:94]
+INFO: [Synth 8-6157] synthesizing module 'Mux4' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:106]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux4' (2#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:106]
+INFO: [Synth 8-6157] synthesizing module 'Mux4__parameterized0' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:106]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux4__parameterized0' (2#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:106]
+INFO: [Synth 8-6157] synthesizing module 'Mux8' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:123]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux8' (3#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:123]
+INFO: [Synth 8-6157] synthesizing module 'FlopEn' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:69]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FlopEn' (4#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:69]
+INFO: [Synth 8-6157] synthesizing module 'Flop' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:57]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Flop' (5#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:57]
+INFO: [Synth 8-6157] synthesizing module 'FlopEnReset' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:81]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FlopEnReset' (6#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:81]
+INFO: [Synth 8-6157] synthesizing module 'GeneralRegisters' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/registers.v:22]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter REGBITS bound to: 5 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+	Parameter SP bound to: 29 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'GeneralRegisters' (7#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/registers.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ConditionRegisters' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/condition_registers.v:23]
+	Parameter CONBITS bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ConditionRegisters' (8#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/condition_registers.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/alu.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MLU' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mlu.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MLU' (10#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mlu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FLU' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:39]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:51]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:37]
+INFO: [Synth 8-638] synthesizing module 'falu' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/falu/synth/falu.vhd:77]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 1 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 1 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 12 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 2 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 4 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 1 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/falu/synth/falu.vhd:214]
+INFO: [Synth 8-256] done synthesizing module 'falu' (29#1) [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/falu/synth/falu.vhd:77]
+WARNING: [Synth 8-350] instance 'falu_core' of module 'falu' requires 13 connections, but only 10 given [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:59]
+INFO: [Synth 8-638] synthesizing module 'fmult' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fmult/synth/fmult.vhd:74]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 1 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 9 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 2 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 4 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fmult/synth/fmult.vhd:207]
+INFO: [Synth 8-256] done synthesizing module 'fmult' (43#1) [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fmult/synth/fmult.vhd:74]
+WARNING: [Synth 8-350] instance 'fmult_core' of module 'fmult' requires 10 connections, but only 8 given [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:72]
+INFO: [Synth 8-638] synthesizing module 'fdiv' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fdiv/synth/fdiv.vhd:74]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 1 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 29 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 4 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fdiv/synth/fdiv.vhd:207]
+INFO: [Synth 8-256] done synthesizing module 'fdiv' (48#1) [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fdiv/synth/fdiv.vhd:74]
+WARNING: [Synth 8-350] instance 'fdiv_core' of module 'fdiv' requires 10 connections, but only 8 given [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:83]
+INFO: [Synth 8-638] synthesizing module 'fixed_to_float' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fixed_to_float/synth/fixed_to_float.vhd:71]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 7 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 4 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fixed_to_float/synth/fixed_to_float.vhd:200]
+INFO: [Synth 8-256] done synthesizing module 'fixed_to_float' (55#1) [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fixed_to_float/synth/fixed_to_float.vhd:71]
+WARNING: [Synth 8-350] instance 'fix_to_float_core' of module 'fixed_to_float' requires 7 connections, but only 6 given [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:94]
+INFO: [Synth 8-638] synthesizing module 'float_to_fixed' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/float_to_fixed/synth/float_to_fixed.vhd:71]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 1 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 7 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 4 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/float_to_fixed/synth/float_to_fixed.vhd:200]
+INFO: [Synth 8-256] done synthesizing module 'float_to_fixed' (59#1) [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/float_to_fixed/synth/float_to_fixed.vhd:71]
+WARNING: [Synth 8-350] instance 'float_to_fixed_core' of module 'float_to_fixed' requires 7 connections, but only 6 given [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:103]
+INFO: [Synth 8-638] synthesizing module 'fcompare' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/synth/fcompare.vhd:74]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 1 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 4 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 7 - type: integer 
+	Parameter C_LATENCY bound to: 3 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 4 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_6' declared at 'c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_6' [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/synth/fcompare.vhd:207]
+INFO: [Synth 8-256] done synthesizing module 'fcompare' (63#1) [c:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/synth/fcompare.vhd:74]
+WARNING: [Synth 8-350] instance 'fcompare_core' of module 'fcompare' requires 10 connections, but only 8 given [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'FLU' (64#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ZeroDetect' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ZeroDetect' (65#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SignDetect' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:34]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SignDetect' (66#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:34]
+INFO: [Synth 8-6157] synthesizing module 'OverflowDetect' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:41]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OverflowDetect' (67#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:41]
+INFO: [Synth 8-6157] synthesizing module 'SignedCompare' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:170]
+INFO: [Synth 8-6155] done synthesizing module 'SignedCompare' (68#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:170]
+INFO: [Synth 8-6157] synthesizing module 'Mux16' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:144]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux16' (69#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'DataPath' (70#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/datapath.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MainController' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:123]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:231]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:257]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:304]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:324]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:282]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:350]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:362]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:375]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:383]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:440]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:450]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:438]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:198]
+INFO: [Synth 8-6155] done synthesizing module 'MainController' (71#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUDecoder' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ALUDecoder' (72#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MLUDecoder' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'MLUDecoder' (73#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:119]
+INFO: [Synth 8-6157] synthesizing module 'FLUDecoder' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'FLUDecoder' (74#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'MIPS' (75#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mips.v:78]
+INFO: [Synth 8-6157] synthesizing module 'DataInput' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'DataInput' (76#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:3]
+INFO: [Synth 8-6157] synthesizing module 'ClockTransformer' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/clock_transformer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Counter' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:82]
+	Parameter CTBITS bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Counter' (77#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:82]
+WARNING: [Synth 8-567] referenced signal 'factor' should be on the sensitivity list [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/clock_transformer.v:68]
+WARNING: [Synth 8-567] referenced signal 'CLK_IN' should be on the sensitivity list [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/clock_transformer.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'ClockTransformer' (78#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/clock_transformer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataOutput' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:19]
+INFO: [Synth 8-6157] synthesizing module 'Counter__parameterized0' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:82]
+	Parameter CTBITS bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Counter__parameterized0' (78#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:82]
+INFO: [Synth 8-6157] synthesizing module 'DECL7S' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/DECL7S.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/DECL7S.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'DECL7S' (79#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/DECL7S.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'DataOutput' (80#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v:19]
+INFO: [Synth 8-6157] synthesizing module 'MemoryController' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/memory_controller.v:78]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter MEMUNITS bound to: 4096 - type: integer 
+	Parameter BYTEALIGN bound to: 3 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'memory.dat' is read successfully [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/memory_controller.v:93]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/memory_controller.v:99]
+INFO: [Synth 8-6155] done synthesizing module 'MemoryController' (81#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/memory_controller.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (82#1) [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mips.v:3]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[20]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[19]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[18]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[17]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[16]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[15]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[14]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[13]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[12]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[11]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[10]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[9]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[8]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[7]
+WARNING: [Synth 8-3331] design FLUDecoder has unconnected port Instr[6]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[25]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[24]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[23]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[22]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[21]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[20]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[19]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[18]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[17]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[16]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[15]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[14]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[13]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[12]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[11]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[10]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[9]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[8]
+WARNING: [Synth 8-3331] design MLUDecoder has unconnected port Instr[7]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[25]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[24]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[23]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[22]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[21]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[20]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[19]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[18]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[17]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[16]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[15]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[14]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[13]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[12]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[11]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[10]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[9]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[8]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[7]
+WARNING: [Synth 8-3331] design ALUDecoder has unconnected port Instr[6]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[15]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[14]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[13]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[12]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[11]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[10]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[9]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[8]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[7]
+WARNING: [Synth 8-3331] design MainController has unconnected port Instr[6]
+WARNING: [Synth 8-3331] design MainController has unconnected port ALU_IS_ZERO
+WARNING: [Synth 8-3331] design MainController has unconnected port ALUSign
+WARNING: [Synth 8-3331] design MainController has unconnected port ALUOverflow
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[30]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[29]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[28]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[27]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[26]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[25]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[24]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[23]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[22]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[21]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[20]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[19]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[18]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[17]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[16]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[15]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[14]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[13]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[12]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[11]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[10]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[9]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[8]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[7]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[6]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[5]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[4]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[3]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[2]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[1]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port Result[0]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[30]
+WARNING: [Synth 8-3331] design OverflowDetect has unconnected port A[29]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 559.371 ; gain = 295.453
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 559.371 ; gain = 295.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 559.371 ; gain = 295.453
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1817 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/constrs_1/imports/new/Top.xdc]
+Finished Parsing XDC File [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/constrs_1/imports/new/Top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/constrs_1/imports/new/Top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 46 instances were transformed.
+  FDE => FDRE: 46 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 809.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 809.508 ; gain = 545.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 809.508 ; gain = 545.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for Processor/Path/FLUnit/fcompare_core. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Processor/Path/FLUnit/float_to_fixed_core. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Processor/Path/FLUnit/fix_to_float_core. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Processor/Path/FLUnit/fdiv_core. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Processor/Path/FLUnit/fmult_core. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Processor/Path/FLUnit/falu_core. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 809.508 ; gain = 545.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "GeneralRegisters_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/alu.v:32]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mlu.v:38]
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "chunk_is_zero_ip" won't be mapped to RAM because address size (36) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_det" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_det" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mulen" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "diven" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "cmpen" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "cvt_ws_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cvt_sw_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PREPARED" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "suben" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "adden" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "Zero0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'MainController'
+INFO: [Synth 8-5546] ROM "RegTransferEn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegSet" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegSet" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegSet" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegCondSet" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "MemWrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "MemRead" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ALUSignCond" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSignCond" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDTSource" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDTSource" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDTSource" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUSrcA" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUSrcB" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ALUSrcB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CC_POS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMODE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMODE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMODE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RSAddr_Pos" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ConditionWrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "InstrOrData" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IREn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PCSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Branch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PCWrite" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "NextState0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NextState0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NextState0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NextState0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "NextState0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5587] ROM size for "ControlCode" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ControlCode" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ControlCode" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ControlCode" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "NEW_DATA" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "IO_OUT" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "ReadData" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/alu.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mlu.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'Result_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:126]
+WARNING: [Synth 8-327] inferring latch for variable 'PREPARED_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v:125]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUCompare_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v:179]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NextState_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_NextState_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:61]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE12 |                             0000 |                            00001
+                 iSTATE7 |                             0001 |                            00010
+                 iSTATE0 |                             0010 |                            00110
+                iSTATE11 |                             0011 |                            01010
+                 iSTATE2 |                             0100 |                            01111
+                 iSTATE3 |                             0101 |                            01110
+                 iSTATE9 |                             0110 |                            01011
+                iSTATE10 |                             0111 |                            01100
+                 iSTATE5 |                             1000 |                            00011
+                 iSTATE4 |                             1001 |                            00101
+                 iSTATE6 |                             1010 |                            00100
+                  iSTATE |                             1011 |                            01001
+                 iSTATE8 |                             1100 |                            10000
+                 iSTATE1 |                             1101 |                            01000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'sequential' in module 'MainController'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_NextState_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:61]
+WARNING: [Synth 8-327] inferring latch for variable 'FMODE_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:193]
+WARNING: [Synth 8-327] inferring latch for variable 'ConditionWrite_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:376]
+WARNING: [Synth 8-327] inferring latch for variable 'RSAddr_Pos_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:218]
+WARNING: [Synth 8-327] inferring latch for variable 'RTAddr_Pos_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v:219]
+WARNING: [Synth 8-327] inferring latch for variable 'ControlCode_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v:35]
+WARNING: [Synth 8-327] inferring latch for variable 'CLK_OUT_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/clock_transformer.v:70]
+WARNING: [Synth 8-327] inferring latch for variable 'LED7S_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/DECL7S.v:8]
+WARNING: [Synth 8-327] inferring latch for variable 'ReadData_reg' [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/memory_controller.v:113]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 809.508 ; gain = 545.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/falu_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/falu_core/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/falu_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/falu_core/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/NORMALIZE_DEL' (delay__parameterized58) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/NORMALIZE_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DELAY_ACCUM_OVERFLOW' (delay__parameterized0) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/ROUND/NORMALIZE_DEL' (delay__parameterized58) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/ROUND/NORMALIZE_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_DEL' (delay__parameterized58) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/NORMALIZE_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mlu.v:46]
+INFO: [Synth 8-5545] ROM "ZeroFlag/Zero0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5587] ROM size for "Control/MemRead" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "alu_decoder/ControlCode" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\Processor/Control/RTAddr_Pos_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Control/RTAddr_Pos_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (Processor/Control/RTAddr_Pos_reg[1]) is unused and will be removed from module Top.
+WARNING: [Synth 8-3332] Sequential element (Processor/Control/RTAddr_Pos_reg[0]) is unused and will be removed from module Top.
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/falu_core/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FD) to 'Processor/Path/FLUnit/falu_core/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/falu_core/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/DEC_STATE_PRE_OP_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]' (FD) to 'Processor/Path/FLUnit/falu_core/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/DEC_STATE_PRE_OP_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/falu_core/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/DEC_STATE_PRE_OP_DELAY/i_pipe/opt_has_pipe.first_q_reg[6]' (FD) to 'Processor/Path/FLUnit/falu_core/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/DEC_STATE_PRE_OP_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Path /FLUnit/falu_core/U0/i_synth/\ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/DEC_STATE_PRE_OP_DELAY/i_pipe/opt_has_pipe.first_q_reg[7] )
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/NORM_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/DEC_STATE_PRE_OP_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/merged_sub_mux.mux_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]) is unused and will be removed from module floating_point_v7_1_6_viv.
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[1]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[2]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[3]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[4]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[5]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[6]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[10]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[11]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][1]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][2]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][3]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][4]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][5]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[6]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Path /FLUnit/fmult_core/U0/i_synth/\MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[7] )
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[7]' (FD) to 'Processor/Path/FLUnit/fmult_core/U0/i_synth/MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Path /FLUnit/fmult_core/U0/i_synth/\MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6] )
+INFO: [Synth 8-3332] Sequential element (MULT.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][3]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (MULT.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][2]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (MULT.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][1]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (MULT.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (MULT.OP/R_AND_R/LOGIC.R_AND_R/MANT_RND2_DEL/i_pipe/opt_has_pipe.first_q_reg[1]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (MULT.OP/R_AND_R/LOGIC.R_AND_R/MANT_RND2_DEL/i_pipe/opt_has_pipe.first_q_reg[0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized1.
+INFO: [Synth 8-3332] Sequential element (MULT.OP/R_AND_R/LOGIC.R_AND_R/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][6]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized1.
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/MANT_DIV/MSB_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/MANT_DIV/RT[1].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/NORMALIZE_UP_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/MANT_DIV/RT[2].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[10]' (FDE) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]' (FDE) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[11]' (FDE) to 'Processor/Path/FLUnit/fdiv_core/U0/i_synth/DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Path /FLUnit/fdiv_core/U0/i_synth/\DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Path /FLUnit/fdiv_core/U0/i_synth/\DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL/i_pipe/opt_has_pipe.first_q_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Path /FLUnit/fdiv_core/U0/i_synth/\DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Processor/Path /FLUnit/fdiv_core/U0/i_synth/\DIV_OP.SPD.OP/EXP/STATE_DEC_DELAY/i_pipe/opt_has_pipe.first_q_reg[7] )
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[5].pipe_reg[5][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[6].pipe_reg[6][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[7].pipe_reg[7][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[8].pipe_reg[8][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[9].pipe_reg[9][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[10].pipe_reg[10][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[11].pipe_reg[11][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[12].pipe_reg[12][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[13].pipe_reg[13][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[14].pipe_reg[14][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[15].pipe_reg[15][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[16].pipe_reg[16][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[17].pipe_reg[17][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[18].pipe_reg[18][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[19].pipe_reg[19][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[20].pipe_reg[20][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[21].pipe_reg[21][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[22].pipe_reg[22][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[23].pipe_reg[23][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[24].pipe_reg[24][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/SIGN_RND_DEL/i_pipe/opt_has_pipe.i_pipe[25].pipe_reg[25][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[5].pipe_reg[5][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[6].pipe_reg[6][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[7].pipe_reg[7][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[8].pipe_reg[8][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[9].pipe_reg[9][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[10].pipe_reg[10][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[11].pipe_reg[11][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[12].pipe_reg[12][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[13].pipe_reg[13][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[14].pipe_reg[14][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[15].pipe_reg[15][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[16].pipe_reg[16][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[17].pipe_reg[17][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[18].pipe_reg[18][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[19].pipe_reg[19][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[20].pipe_reg[20][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[21].pipe_reg[21][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[22].pipe_reg[22][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[23].pipe_reg[23][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[24].pipe_reg[24][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[25].pipe_reg[25][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/INV_OP_DEL/i_pipe/opt_has_pipe.i_pipe[26].pipe_reg[26][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[5].pipe_reg[5][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[6].pipe_reg[6][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[7].pipe_reg[7][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[8].pipe_reg[8][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[9].pipe_reg[9][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[10].pipe_reg[10][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[11].pipe_reg[11][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[12].pipe_reg[12][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[13].pipe_reg[13][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[14].pipe_reg[14][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[15].pipe_reg[15][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[16].pipe_reg[16][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[17].pipe_reg[17][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[18].pipe_reg[18][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[19].pipe_reg[19][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[20].pipe_reg[20][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[21].pipe_reg[21][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[22].pipe_reg[22][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[23].pipe_reg[23][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[24].pipe_reg[24][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[25].pipe_reg[25][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/DIV_BY_ZERO_DEL/i_pipe/opt_has_pipe.i_pipe[26].pipe_reg[26][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][3]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][2]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][1]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][3]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][2]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][1]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][3]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][2]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][1]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Synth 8-3332] Sequential element (DIV_OP.SPD.OP/EXP/FLOW_UP_DEL/i_pipe/opt_has_pipe.i_pipe[4].pipe_reg[4][0]) is unused and will be removed from module floating_point_v7_1_6_viv__parameterized3.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/EXP_MOD_DEL/i_pipe/opt_has_pipe.first_q_reg[6]' (FD) to 'Processor/Path/FLUnit/fix_to_float_core/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/EXP_MOD_DEL/i_pipe/opt_has_pipe.first_q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ZERO_DET_DIST_DEL/DEL/i_pipe/opt_has_pipe.first_q_reg[1]' (FD) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_DIST_DEL/DEL/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ZERO_DET_DIST_DEL/DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FD) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_DIST_DEL/DEL/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_Z_D/MUX_LOOP[0].DEL_Z_D/i_pipe/opt_has_pipe.first_q_reg[6]' (FD) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_Z_D/MUX_LOOP[0].DEL_Z_D/i_pipe/opt_has_pipe.first_q_reg[7]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_Z_D/MUX_LOOP[0].DEL_Z_D/i_pipe/opt_has_pipe.first_q_reg[7]' (FD) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_Z_D/MUX_LOOP[1].DEL_Z_D/i_pipe/opt_has_pipe.first_q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_Z_D/MUX_LOOP[1].DEL_Z_D/i_pipe/opt_has_pipe.first_q_reg[3]' (FD) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_Z_D/MUX_LOOP[1].DEL_Z_D/i_pipe/opt_has_pipe.first_q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/COMP_OP.SPD.OP/CMP_COND_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FD) to 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/COMP_OP.SPD.OP/CMP_COND_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/COMP_OP.SPD.OP/CMP_COND_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]' (FD) to 'Processor/Path/FLUnit/fcompare_core/U0/i_synth/COMP_OP.SPD.OP/CMP_COND_DELAY/i_pipe/opt_has_pipe.first_q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ZERO_DET_DIST_DEL/DEL/i_pipe/opt_has_pipe.first_q_reg[2]' (FD) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_DIST_DEL/DEL/i_pipe/opt_has_pipe.first_q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_Z_D/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[0]' (FD) to 'Processor/Path/FLUnit/float_to_fixed_core/U0/i_synth/FLT_TO_FIX_OP.SPD.OP/ALIGN_SHIFT/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[0]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:29 ; elapsed = 00:01:36 . Memory (MB): peak = 809.508 ; gain = 545.590
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:43 ; elapsed = 00:01:52 . Memory (MB): peak = 871.055 ; gain = 607.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:00 . Memory (MB): peak = 930.648 ; gain = 666.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:00 ; elapsed = 00:02:10 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/merged_sub_mux.mux_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] is being inverted and renamed to ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/merged_sub_mux.mux_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:02 ; elapsed = 00:02:12 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:03 ; elapsed = 00:02:12 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:05 ; elapsed = 00:02:14 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:05 ; elapsed = 00:02:14 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:06 ; elapsed = 00:02:15 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:06 ; elapsed = 00:02:15 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     6|
+|2     |CARRY4    |   667|
+|3     |DSP48E1   |     8|
+|4     |DSP48E1_1 |     1|
+|5     |DSP48E1_2 |     1|
+|6     |DSP48E1_3 |     1|
+|7     |DSP48E1_4 |     1|
+|8     |LUT1      |   274|
+|9     |LUT2      |   583|
+|10    |LUT3      |  2957|
+|11    |LUT4      |   350|
+|12    |LUT5      |   284|
+|13    |LUT6      |  2464|
+|14    |MUXCY     |   923|
+|15    |MUXF7     |   608|
+|16    |MUXF8     |   102|
+|17    |RAM256X1S |   512|
+|18    |SRL16E    |    52|
+|19    |SRLC32E   |    22|
+|20    |XORCY     |   831|
+|21    |FDCE      |    36|
+|22    |FDE       |    45|
+|23    |FDRE      |  4993|
+|24    |FDSE      |    26|
+|25    |LD        |    87|
+|26    |LDC       |    97|
+|27    |IBUF      |    10|
+|28    |OBUF      |    24|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:06 ; elapsed = 00:02:15 . Memory (MB): peak = 1017.023 ; gain = 753.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 404 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:16 ; elapsed = 00:01:59 . Memory (MB): peak = 1017.023 ; gain = 502.969
+Synthesis Optimization Complete : Time (s): cpu = 00:02:06 ; elapsed = 00:02:15 . Memory (MB): peak = 1017.023 ; gain = 753.105
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3894 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1006 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 265 instances
+  FDE => FDRE: 45 instances
+  LD => LDCE: 87 instances
+  LDC => LDCE: 97 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 512 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+417 Infos, 126 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:15 ; elapsed = 00:02:24 . Memory (MB): peak = 1017.023 ; gain = 764.574
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.205 . Memory (MB): peak = 1017.023 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 10 19:50:44 2018...

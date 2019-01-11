@@ -1,0 +1,27 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.sim/sim_1/new/top_sim.v,1531227869,verilog,,,,top_sim,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/falu/sim/falu.vhd,1531269091,vhdl,,,,falu,,,,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fcompare/sim/fcompare.vhd,1531269080,vhdl,,,,fcompare,,,,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fdiv/sim/fdiv.vhd,1531269087,vhdl,,,,fdiv,,,,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fixed_to_float/sim/fixed_to_float.vhd,1531269085,vhdl,,,,fixed_to_float,,,,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/float_to_fixed/sim/float_to_fixed.vhd,1531269083,vhdl,,,,float_to_fixed,,,,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/ip/fmult/sim/fmult.vhd,1531269089,vhdl,,,,fmult,,,,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/DECL7S.v,1531091502,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/alu.v,,DECL7S,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/alu.v,1531239293,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/clock_transformer.v,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v,ALU,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/clock_transformer.v,1531240328,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/condition_registers.v,,ClockTransformer,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/condition_registers.v,1531218058,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/datapath.v,,ConditionRegisters,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/datapath.v,1531235796,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v,,DataPath,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/decoders.v,1531030632,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v,ALUDecoder;Decoder2to4;Decoder3to8;FLUDecoder;MLUDecoder,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/etc.v,1531239547,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v,Flop;FlopEn;FlopEnReset;Mux16;Mux2;Mux4;Mux8;OverflowDetect;SignDetect;SignedCompare;ZeroDetect,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/flu.v,1531240820,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v,FLU,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v,1531234153,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/DECL7S.v,,,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/io_module.v,1531295657,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v,,Counter;DataInput;DataOutput,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/main_controller.v,1531277275,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/memory_controller.v,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v,MainController,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/memory_controller.v,1531241502,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mips.v,,MemoryController,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mips.v,1531274162,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mlu.v,,MIPS;Top,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/mlu.v,1531239342,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/registers.v,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/global_define.v,MLU,,,../../../../sin_final.srcs/sources_1/new,,,,,
+C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.srcs/sources_1/new/registers.v,1531045352,verilog,,C:/Users/Trinity/Documents/Vivado/sin_final/sin_final.sim/sim_1/new/top_sim.v,,GeneralRegisters,,,../../../../sin_final.srcs/sources_1/new,,,,,

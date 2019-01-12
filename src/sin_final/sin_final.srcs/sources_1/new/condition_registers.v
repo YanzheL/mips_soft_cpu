@@ -21,22 +21,22 @@
 
 
 module ConditionRegisters #(CONBITS = 3)(
-        input               CLK, Reset, WE,
-        input [CONBITS-1:0] CC,
-        input               WD,
-        output              RD
-    );
-//    reg [CONBITS-1:0] ConditionFlags;
-    reg [(1<<CONBITS)-1:0] ConditionFlags;
-    integer i;
-    always @(posedge CLK)
-        if (Reset) begin
-            for (i = 0; i < (1<<CONBITS); i = i + 1) begin
-                ConditionFlags[i] <=  1'b0 ;
-            end
-        end
-        else if(WE)
-            ConditionFlags[CC] <= WD;
-            
-    assign RD = ConditionFlags[CC];
+    input               CLK, Reset, WE,
+    input [CONBITS-1:0] CC,
+    input               WD,
+    output              RD
+);
+//  reg [CONBITS-1:0] ConditionFlags;
+  reg [(1<<CONBITS)-1:0] ConditionFlags;
+  integer i;
+  always @(posedge CLK)
+    if (Reset) begin
+      for (i = 0; i < (1<<CONBITS); i = i + 1) begin
+        ConditionFlags[i] <=  1'b0 ;
+      end
+    end
+    else if(WE)
+      ConditionFlags[CC] <= WD;
+      
+  assign RD = ConditionFlags[CC];
 endmodule

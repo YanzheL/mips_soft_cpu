@@ -1,6 +1,6 @@
 ## MIPS-32 Soft-Core CPU
 
-This is my course project for ***Computer Design and Practice*** course at HIT.
+This is my course project for ***Computer Design and Practice*** at HIT.
 
 It contains a Soft-Core CPU written by Verilog, and tested on Xilinx XC7A35T-1 CPG236C FPGA.
 

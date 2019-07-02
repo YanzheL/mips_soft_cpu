@@ -4,7 +4,7 @@ This is my course project for ***Computer Design and Practice*** at HIT.
 
 It contains a Soft-Core CPU written by Verilog, and tested on Xilinx XC7A35T-1 CPG236C FPGA.
 
-I also provide a test code [sin_mips](test/sin_mips.s), which calculate the sin value of the input from on-board button.
+I also provide a test assembly code [sin_mips](test/sin_mips.s), which calculate the sin value of the input from on-board buttons.
 
 #### Implemented instructions
 

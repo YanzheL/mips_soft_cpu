@@ -1,4 +1,4 @@
-`timescale 10ns / 100ps
+`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -32,17 +32,17 @@ module top_sim();
         .LED_ENCODE2(LED_ENCODE2),
         .LED_SELECT(LED_SELECT)
     );
-	// reset processor
-	initial
-		begin
-		    buttons <= 8'h3c;
-			#10 Reset <= 1; # 22; Reset <= 0;
-			#7000 Reset <= 1; # 10; Reset <= 0;
-		end
-	// generate clock
-	always
-		begin
-			CLK <= 1; #0.5; CLK <= 0; #0.5;
-		end 
+    // reset processor
+    initial
+        begin
+            buttons <= 8'h3c;
+            #10 Reset <= 1; # 22; Reset <= 0;
+            #7000 Reset <= 1; # 10; Reset <= 0;
+        end
+    // generate clock
+    always
+        begin
+            CLK <= 1; #0.5; CLK <= 0; #0.5;
+        end 
 
 endmodule

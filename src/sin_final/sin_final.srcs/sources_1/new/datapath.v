@@ -100,24 +100,24 @@ module DataPath #(parameter WIDTH = 32, REGBITS = 4, MEMUNITS = 4096, CONBITS = 
   Mux8           #(WIDTH) ALUSrcA_Select(PC, RS, RT, CONST_0, {31'b0,IsConditionTrue},CONST_0,CONST_0,CONST_0,ALUSrcA, SrcA);
   Mux16          #(WIDTH) ALUSrcB_Select(
                             .D0(RT),
-							.D1(32'b100),
-							.D2(SignExtImm),
-							.D3(SignExtImm << 2),
-							.D4(ZeroExtIndex),
-							.D5(ZeroExtImm),
-							.D6(ZeroExtSA),
-							.D7(CONST_0),
-							.D8(RS),
-							.D9(0),
-							.D10(0),
-							.D11(0),
-							.D12(0),
-							.D13(0),
-							.D14(0),
-							.D15(0),
+                            .D1(32'b100),
+                            .D2(SignExtImm),
+                            .D3(SignExtImm << 2),
+                            .D4(ZeroExtIndex),
+                            .D5(ZeroExtImm),
+                            .D6(ZeroExtSA),
+                            .D7(CONST_0),
+                            .D8(RS),
+                            .D9(0),
+                            .D10(0),
+                            .D11(0),
+                            .D12(0),
+                            .D13(0),
+                            .D14(0),
+                            .D15(0),
                             .Cond(ALUSrcB),
-							.Result(SrcB)
-						  );
+                            .Result(SrcB)
+                          );
   // Next PC
   Mux2           #(WIDTH) NextPC_Select(ALUResult, ALUOut, PCSrc, NextPC);
 endmodule

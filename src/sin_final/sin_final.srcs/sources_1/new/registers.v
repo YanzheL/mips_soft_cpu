@@ -38,7 +38,7 @@ module GeneralRegisters #(parameter WIDTH = 32, REGBITS = 5, MEMUNITS = 4096) (
         end
         else if(WE3)
             GeneralRegisters[A3] <= WD3;
-    
+
     wire [WIDTH-1:0] one_or;
     assign one_or = FMODE?32'hffffffff:32'b0;
     assign RD1 = A1|one_or ? GeneralRegisters[A1] : 0;

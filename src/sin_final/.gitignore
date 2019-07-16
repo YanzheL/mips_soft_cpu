@@ -3,3 +3,4 @@
 *.jou
 .Xil
 vivado_pid*.str
+.jobs

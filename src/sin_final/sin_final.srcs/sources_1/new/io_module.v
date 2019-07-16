@@ -12,7 +12,7 @@ module DataInput(
             SIGN=0;
         else
             SIGN=1;
-    end	
+    end    
 endmodule
 
 
@@ -70,20 +70,20 @@ module DataOutput(
 endmodule
 
 module Counter #(CTBITS = 32)(
-        input wire  	CLK,
+        input wire      CLK,
                         RST,
         input wire[CTBITS-1:0]
-						MIN,
-						MAX,
-		output reg[CTBITS-1:0]
-						CT
-	);
-	
-	always @(posedge CLK or negedge RST) 
-		if(~RST)
-			CT=0;
-		else if((MIN!=MAX)&&(CT==MAX-1))
-			CT=MIN;
-		else
-			CT=CT+1;	
+                        MIN,
+                        MAX,
+        output reg[CTBITS-1:0]
+                        CT
+    );
+
+    always @(posedge CLK or negedge RST) 
+        if(~RST)
+            CT=0;
+        else if((MIN!=MAX)&&(CT==MAX-1))
+            CT=MIN;
+        else
+            CT=CT+1;    
 endmodule

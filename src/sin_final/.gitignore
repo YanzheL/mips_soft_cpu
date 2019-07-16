@@ -1,0 +1,5 @@
+*.cache
+*.log
+*.jou
+.Xil
+vivado_pid*.str

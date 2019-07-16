@@ -4,3 +4,5 @@
 .Xil
 vivado_pid*.str
 .jobs
+sin_final.runs/**/.*
+!sin_final.runs/**/.vivado.*.rst

@@ -1,10 +1,10 @@
 ## MIPS-32 Soft-Core CPU
 
-This is my course project for ***Computer Design and Practice*** at HIT.
+This is my course project for ***Machine Organization*** at HIT.
 
 It contains a Soft-Core CPU written by Verilog, and tested on Xilinx XC7A35T-1 CPG236C FPGA.
 
-I also provide a test assembly code [sin_mips](test/sin_mips.s), which calculate the sin value of the input from on-board buttons.
+I also provide a test assembly code [sin_mips](test/sin_mips.s), which calculates the sin value of the input from on-board buttons.
 
 #### Implemented instructions
 
@@ -23,4 +23,3 @@ I also provide a test assembly code [sin_mips](test/sin_mips.s), which calculate
 32 Floating Point Registers `$f0`-`$f31`
 
 Detailed documentation (Project Report) can be found at [docs](docs) directory, but currently it is in Chinese.
-

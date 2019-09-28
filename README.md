@@ -2,7 +2,7 @@
 
 This is my course project for ***Machine Organization*** at HIT.
 
-It contains a Soft-Core CPU written by Verilog, and tested on Xilinx XC7A35T-1 CPG236C FPGA.
+It contains a Soft-Core MIPS-32 CPU written by Verilog, and tested on Xilinx XC7A35T-1 CPG236C FPGA.
 
 I also provide a test assembly code [sin_mips](test/sin_mips.s), which calculates the sin value of the input from on-board buttons.
 
